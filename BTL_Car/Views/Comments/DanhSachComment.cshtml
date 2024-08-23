@@ -1,0 +1,81 @@
+@{
+    ViewData["title"] = "Danh sách Comments";
+}
+@model IEnumerable<BTL_Car.Models.Comments>
+
+<head>
+    <link rel="stylesheet" href="./Views/Comments/cmtCss.css">
+    <style>
+        body {
+            font-family: Arial;
+            padding: 10px;
+            background: #f1f1f1;
+        }
+
+        .header {
+            padding: 70px;
+            text-align: center;
+            background-position: center;
+            background-size: cover;
+        }
+
+        @@mediascreen and (max-width: 600px) {
+            .responsive1 {
+                width: 100%;
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Danh sách Comments</h1>
+    </div>
+    <div>
+        @foreach (var cmt in Model)
+        {
+            <div class="responsive1" style="float: left; width: 33%;">
+                <div class="card shadow-sm border-light">
+                    <div class="card-body">
+                        <p>CommentID: @cmt.comment_id UserID: @cmt.user_id veryfy: @cmt.VerifyKey</p>
+                        <p>Content: @cmt.content</p>
+                        <a href='javascript:deleteCmt("@cmt.comment_id");'>Delete</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</body>
+
+<script>
+    async function deleteCmt(id) {
+        let ans = confirm("bạn có chắc chắn muôn xóa không?");
+        if (!ans) {
+            return;
+        }
+
+        fetch(`/Comments/Delete/${id}`, {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+            .then(response => {
+                if (!response.ok) {
+                    if (response.status === 404) {
+                        return Promise.reject('cmt not found');
+                    } else {
+                        return Promise.reject('Error deleting cmt');
+                    }
+                }
+            })
+            .then(data => {
+                console.log('cmt deleted successfully:', data);
+                window.location.href = '/Comments/DanhSachComment';
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+    }
+</script>

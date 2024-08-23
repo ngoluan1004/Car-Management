@@ -1,0 +1,216 @@
+﻿@model BTL_Car.Models.Cars
+
+@{
+    ViewData["Title"] = "Sửa xe";
+}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial;
+            padding: 10px;
+            background: #f1f1f1;
+        }
+
+        /* Header/Blog Title */
+        .header {
+            padding: 70px;
+            text-align: center;
+            background: rgb(88, 189, 236);
+            background-image: url("./img/a1.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .header h1 {
+            font-size: 50px;
+        }
+
+        /* Style the top navigation bar */
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        /* Style the topnav links */
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change color on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Create two unequal columns that floats next to each other */
+        /* Left column */
+        .leftcolumn {
+            float: left;
+            width: 75%;
+        }
+
+        /* Right column */
+        .rightcolumn {
+            float: left;
+            width: 25%;
+            background-color: #f1f1f1;
+            padding-left: 20px;
+        }
+
+        .fakeimg {
+            background-color: #aaa;
+            width: 100%;
+            padding: 20px;
+            background-image: url("img/a.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        /* Add a card effect for articles */
+        .card1 {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* Clear floats after the columns */
+        .row::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #ddd;
+            margin-top: 20px;
+        }
+
+        /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+        @@mediascreen and (max-width: 1000px) {
+
+            .leftcolumn,
+            .rightcolumn {
+                width: 100%;
+                padding: 0;
+            }
+        }
+
+        /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+        @@mediascreen and (max-width: 600px) {
+            .topnav a {
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header" style="margin: 5px 25px; ">
+        <h1>MinOto</h1>
+        <p style="font-size: 25px;">Luôn hỗ trợ và chia sẻ trên mọi tuyến đường</p>
+    </div>
+
+    <div class="topnav" style="margin: 5px 25px ">
+        <a asp-controller="Cars" asp-action="Home"><i class="fa fa-fw fa-home"></i>Trang chủ</a>
+        <a asp-controller="Booking" asp-action="Index"><i class="fa fa-fw fa-search"></i>Đặt xe</a>
+        <a asp-controller="Cars" asp-action="AboutUs"><i class="fa fa-fw fa-envelope"></i>Contact</a>
+        @if (Context.Session.GetString("UserName") != null)
+        {
+            <a asp-controller="Users" asp-action="Logout" style="float:right">Logout</a>
+            <a asp-controller="Users" asp-action="UserInfor" style="float:right"> Xin Chào
+                @Context.Session.GetString("UserName") <i class="fa fa-fw fa-user"></i></a>
+        }
+        else
+        {
+            <a asp-controller="Users" asp-action="Login" style="float:right">Login <i class="fa fa-fw fa-user"></i></a>
+        }
+    </div>
+    <h2 style="margin-left: 25px;">@ViewData["Title"]</h2>
+
+    <div class="container">
+        <form asp-action="Edit">
+            <input type="hidden" asp-for="car_id" />
+            <div class="form-group">
+                <label asp-for="car_make" class="control-label"></label>
+                <input asp-for="car_make" class="form-control" />
+                <span asp-validation-for="car_make" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="car_model" class="control-label"></label>
+                <input asp-for="car_model" class="form-control" />
+                <span asp-validation-for="car_model" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="year_production" class="control-label"></label>
+                <input asp-for="year_production" type="number" class="form-control" />
+                <span asp-validation-for="year_production" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="color" class="control-label"></label>
+                <input asp-for="color" class="form-control" />
+                <span asp-validation-for="color" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="price_per_day" class="control-label"></label>
+                <input asp-for="price_per_day" type="number" step="0.01" class="form-control" />
+                <span asp-validation-for="price_per_day" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="rating" class="control-label"></label>
+                <input asp-for="rating" type="number" step="0.1" min="0" max="5" class="form-control" />
+                <span asp-validation-for="rating" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="license_plate" class="control-label"></label>
+                <input asp-for="license_plate" class="form-control" />
+                <span asp-validation-for="license_plate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="seats" class="control-label"></label>
+                <input asp-for="seats" type="number" class="form-control" />
+                <span asp-validation-for="seats" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="transmission" class="control-label"></label>
+                <input asp-for="transmission" class="form-control" />
+                <span asp-validation-for="transmission" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="fuel_type" class="control-label"></label>
+                <input asp-for="fuel_type" class="form-control" />
+                <span asp-validation-for="fuel_type" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="image_url" class="control-label"></label>
+                <input asp-for="image_url" class="form-control" />
+                <span asp-validation-for="image_url" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Lưu</button>
+                <a href="@Url.Action("Index", "Cars")" class="btn btn-secondary">Quay lại</a>
+            </div>
+        </form>
+    </div>
+    <div class="footer" style="margin: 5px 25px">
+        <h2>Footer</h2>
+    </div>
+</body>

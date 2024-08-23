@@ -1,0 +1,284 @@
+@* @model IEnumerable<BTL_Car.Models.Cars>
+
+@{
+ViewData["Title"] = "Cars List";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div class="container">
+<div class="row">
+@foreach (var car in Model)
+{
+<div class="col-md-4 mb-4">
+<div class="card shadow-sm border-light">
+<img class="card-img-top" src="@car.image_url" alt="Car Image">
+<div class="card-body">
+<h5 class="card-title">@car.car_make @car.car_model</h5>
+<div class="d-flex justify-content-between">
+<div class="w-50 pr-2">
+<p class="card-text"><i class="fas fa-calendar-alt"></i> Year: @car.year_production</p>
+<p class="card-text"><i class="fas fa-paint-brush"></i> Color: @car.color</p>
+<p class="card-text"><i class="fas fa-tag"></i> Price per day: @car.price_per_day</p>
+<p class="card-text"><i class="fas fa-star"></i> Rating: @car.rating</p>
+</div>
+<div class="w-50 pl-2">
+<p class="card-text"><i class="fas fa-plate"></i> License plate: @car.license_plate</p>
+<p class="card-text"><i class="fas fa-chair"></i> Seats: @car.seats</p>
+<p class="card-text"><i class="fas fa-cogs"></i> Transmission: @car.transmission</p>
+<p class="card-text"><i class="fas fa-gas-pump"></i> Fuel Type: @car.fuel_type</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+}
+</div>
+</div>
+
+@section Scripts {
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+}
+*@
+
+@model IEnumerable<BTL_Car.Models.Cars>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đặt xe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial;
+            padding: 10px;
+            background: #f1f1f1;
+        }
+
+        /* Header/Blog Title */
+        .header {
+            padding: 70px;
+            text-align: center;
+            background: rgb(88, 189, 236);
+            background-image: url("./img/a1.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .header h1 {
+            font-size: 50px;
+        }
+
+        /* Style the top navigation bar */
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        /* Style the topnav links */
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change color on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Create two unequal columns that floats next to each other */
+        /* Left column */
+        .leftcolumn {
+            float: left;
+            width: 75%;
+        }
+
+        /* Right column */
+        .rightcolumn {
+            float: left;
+            width: 25%;
+            background-color: #f1f1f1;
+            padding-left: 20px;
+        }
+
+        .fakeimg {
+            background-color: #aaa;
+            width: 100%;
+            padding: 20px;
+            background-image: url("img/a.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        /* Add a card effect for articles */
+        .card1 {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* Clear floats after the columns */
+        .row::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #ddd;
+            margin-top: 20px;
+        }
+
+        /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+        @@mediascreen and (max-width: 1000px) {
+
+            .leftcolumn,
+            .rightcolumn {
+                width: 100%;
+                padding: 0;
+            }
+        }
+
+        /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+        @@mediascreen and (max-width: 600px) {
+            .topnav a {
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header" style="margin: 5px 25px; ">
+        <h1>MinOto</h1>
+        <p style="font-size: 25px;">Luôn hỗ trợ và chia sẻ trên mọi tuyến đường</p>
+    </div>
+
+    <div class="topnav" style="margin: 5px 25px ">
+        <a asp-controller="Cars" asp-action="Home"><i class="fa fa-fw fa-home"></i>Trang chủ</a>
+        <a asp-controller="Booking" asp-action="Index"><i class="fa fa-fw fa-search"></i>Đặt xe</a>
+        <a asp-controller="Cars" asp-action="AboutUs"><i class="fa fa-fw fa-envelope"></i>Contact</a>
+        @if (Context.Session.GetString("UserName") != null)
+        {
+            <a asp-controller="Users" asp-action="Logout" style="float:right">Logout</a>
+            <a asp-controller="Users" asp-action="UserInfor" style="float:right"> Xin Chào
+                @Context.Session.GetString("UserName") <i class="fa fa-fw fa-user"></i></a>
+        }
+        else
+        {
+            <a asp-controller="Users" asp-action="Login" style="float:right">Login <i class="fa fa-fw fa-user"></i></a>
+        }
+    </div>
+
+    <h2 style="margin: 5px 25px "> Danh sách Xe</h2>
+
+    <div class="row" style="margin: 5px 20px">
+        <form method="get" action="@Url.Action("Search", "Cars")">
+            <input type="text" name="carModel" placeholder="Car Model" />
+            <input type="number" name="pricePerDay" placeholder="Price Per Day" />
+            <input type="text" name="color" placeholder="Color" />
+            <input type="number" name="yearProduction" placeholder="Year Production" />
+            <button class="btn btn-primary" type="submit">Search</button>
+        </form>
+
+        <a class="btn btn-primary" style="margin: 10px 0 10px 50px; ; float: left; width:20%;"
+            href="@Url.Action("Create", "Cars")">Thêm xe mới</a>
+        <a class="btn btn-primary" style="margin: 10px 0 10px 0; float: left; width:20%;"
+            href="@Url.Action("SortAlpha", "Cars")">Sắp xếp theo tên</a>
+        <a class="btn btn-primary" style="margin: 10px 0 10px 0; float: left; width:20%;"
+            href="@Url.Action("SortPrice", "Cars")">Sắp xếp theo giá</a>
+        <div class="leftcolumn">
+            <div class="row">
+                @foreach (var car in Model)
+                {
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow-sm border-light">
+                            <a href="@Url.Action("CarDetail", "Cars", new { id = car.car_id })">
+                                <img class="card-img-top" src="@car.image_url" alt="Ảnh xe">
+                            </a>
+                            <div class="card-body">
+                                <a href="@Url.Action("CarDetail", "Cars", new { id = car.car_id })">
+                                    <h5 class="card-title">@car.car_make @car.car_model</h5>
+                                </a>
+                                <div class="d-flex justify-content-between">
+                                    <div class="w-50 pr-2">
+                                        <p class="card-text"><i class="fas fa-calendar-alt"></i> Năm sản xuất:
+                                            @car.year_production</p>
+                                        <p class="card-text"><i class="fas fa-paint-brush"></i> Màu sắc: @car.color</p>
+                                        <p class="card-text"><i class="fas fa-tag"></i> Giá thuê/ngày: @car.price_per_day
+                                        </p>
+                                        <p class="card-text"><i class="fas fa-star"></i> Đánh giá: @car.rating</p>
+                                    </div>
+                                    <div class="w-50 pl-2">
+                                        <p class="card-text"><i class="fas fa-plate"></i> Biển số: @car.license_plate</p>
+                                        <p class="card-text"><i class="fas fa-chair"></i> Số ghế: @car.seats</p>
+                                        <p class="card-text"><i class="fas fa-cogs"></i> Truyền động: @car.transmission</p>
+                                        <p class="card-text"><i class="fas fa-gas-pump"></i> Loại nhiên liệu: @car.fuel_type
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="mt-3">
+                                    <a class="btn btn-primary"
+                                        href="@Url.Action("Book", "Booking", new { id = car.car_id })">Đặt xe</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+        <div class="rightcolumn">
+            <div class="card1">
+                <h2>About Me</h2>
+                <div class="fakeimg" style="height:100px;">Image</div>
+                <p>MinOto là 1 trang web chuyên hỗ trọ và chia sẻ các phương tiện giao thông...</p>
+            </div>
+            <div class="card1">
+                <h3>Popular Post</h3>
+                <div class="fakeimg">
+                    <p>Image</p>
+                </div>
+                <div class="fakeimg">
+                    <p>Image</p>
+                </div>
+                <div class="fakeimg">
+                    <p>Image</p>
+                </div>
+            </div>
+            <div class="card1">
+                <h3>Follow Me</h3>
+                <p>Some text..</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="mb-4" style="margin: 0 auto; text-align: center">
+        <a class="btn btn-primary" style="margin-top: 10px;" href="@Url.Action("Create", "Cars")">Xem Thêm</a>
+    </div>
+    <div class="footer" style="margin: 5px 25px">
+        <h2>Footer</h2>
+    </div>
+</body>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+}

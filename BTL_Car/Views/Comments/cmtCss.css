@@ -1,0 +1,17 @@
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+.header {
+    padding: 70px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+@mediascreen and (max-width: 600px) {
+    .responsive1 {
+        width: 100%;
+        padding: 0;
+    }
+}

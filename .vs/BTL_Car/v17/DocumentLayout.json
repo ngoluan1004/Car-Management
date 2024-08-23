@@ -1,0 +1,559 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\LTWNC\\BTL_Car\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|e:\\ltwnc\\btl_car\\btl_car\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|solutionrelative:btl_car\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|e:\\ltwnc\\btl_car\\btl_car\\views\\booking\\pay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|solutionrelative:btl_car\\views\\booking\\pay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|e:\\ltwnc\\btl_car\\btl_car\\models\\bookingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|solutionrelative:btl_car\\models\\bookingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|e:\\ltwnc\\btl_car\\btl_car\\viewcomponents\\cartviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|solutionrelative:btl_car\\viewcomponents\\cartviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|e:\\ltwnc\\btl_car\\btl_car\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|solutionrelative:btl_car\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|e:\\ltwnc\\btl_car\\btl_car\\viewmodels\\cartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|solutionrelative:btl_car\\viewmodels\\cartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|e:\\ltwnc\\btl_car\\btl_car\\helpers\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|solutionrelative:btl_car\\helpers\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|e:\\ltwnc\\btl_car\\btl_car\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|solutionrelative:btl_car\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|e:\\ltwnc\\btl_car\\btl_car\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|solutionrelative:btl_car\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|e:\\ltwnc\\btl_car\\btl_car\\views\\users\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|solutionrelative:btl_car\\views\\users\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|e:\\ltwnc\\btl_car\\btl_car\\views\\shared\\components\\cart\\countbooking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|solutionrelative:btl_car\\views\\shared\\components\\cart\\countbooking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|e:\\ltwnc\\btl_car\\btl_car\\models\\cars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|solutionrelative:btl_car\\models\\cars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|e:\\ltwnc\\btl_car\\btl_car\\helpers\\mysetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|solutionrelative:btl_car\\helpers\\mysetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|e:\\ltwnc\\btl_car\\btl_car\\btl_car.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|solutionrelative:btl_car\\btl_car.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|e:\\ltwnc\\btl_car\\btl_car\\views\\booking\\cancel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|solutionrelative:btl_car\\views\\booking\\cancel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|e:\\ltwnc\\btl_car\\btl_car\\views\\booking\\book.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|solutionrelative:btl_car\\views\\booking\\book.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|e:\\ltwnc\\btl_car\\btl_car\\views\\booking\\hiendsbooking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|solutionrelative:btl_car\\views\\booking\\hiendsbooking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|e:\\ltwnc\\btl_car\\btl_car\\views\\users\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|solutionrelative:btl_car\\views\\users\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|e:\\ltwnc\\btl_car\\btl_car\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|solutionrelative:btl_car\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|e:\\ltwnc\\btl_car\\btl_car\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|solutionrelative:btl_car\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|e:\\ltwnc\\btl_car\\btl_car\\views\\cars\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|solutionrelative:btl_car\\views\\cars\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|e:\\ltwnc\\btl_car\\btl_car\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|solutionrelative:btl_car\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|e:\\ltwnc\\btl_car\\btl_car\\views\\cars\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|solutionrelative:btl_car\\views\\cars\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|e:\\ltwnc\\btl_car\\btl_car\\views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|solutionrelative:btl_car\\views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|e:\\ltwnc\\btl_car\\btl_car\\models\\dangnhapviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|solutionrelative:btl_car\\models\\dangnhapviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|e:\\ltwnc\\btl_car\\btl_car\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|solutionrelative:btl_car\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|e:\\ltwnc\\btl_car\\btl_car\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|solutionrelative:btl_car\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|e:\\ltwnc\\btl_car\\btl_car\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|solutionrelative:btl_car\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|e:\\ltwnc\\btl_car\\btl_car\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|solutionrelative:btl_car\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|e:\\ltwnc\\btl_car\\btl_car\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|solutionrelative:btl_car\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|e:\\ltwnc\\btl_car\\btl_car\\views\\cars\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6A13B69-72AA-40B3-B6B9-CF1F02D90F62}|BTL_Car\\BTL_Car.csproj|solutionrelative:btl_car\\views\\cars\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CartModel.cs",
+              "DocumentMoniker": "E:\\LTWNC\\BTL_Car\\BTL_Car\\ViewModels\\CartModel.cs",
+              "RelativeDocumentMoniker": "BTL_Car\\ViewModels\\CartModel.cs",
+              "ToolTip": "E:\\LTWNC\\BTL_Car\\BTL_Car\\ViewModels\\CartModel.cs",
+              "RelativeToolTip": "BTL_Car\\ViewModels\\CartModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T13:27:49.771Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Pay.cshtml",
+              "DocumentMoniker": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Views\\Booking\\Pay.cshtml",
+              "RelativeDocumentMoniker": "BTL_Car\\Views\\Booking\\Pay.cshtml",
+              "ToolTip": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Views\\Booking\\Pay.cshtml",
+              "RelativeToolTip": "BTL_Car\\Views\\Booking\\Pay.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAYwAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T14:32:44.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CartViewComponent.cs",
+              "DocumentMoniker": "E:\\LTWNC\\BTL_Car\\BTL_Car\\ViewComponents\\CartViewComponent.cs",
+              "RelativeDocumentMoniker": "BTL_Car\\ViewComponents\\CartViewComponent.cs",
+              "ToolTip": "E:\\LTWNC\\BTL_Car\\BTL_Car\\ViewComponents\\CartViewComponent.cs",
+              "RelativeToolTip": "BTL_Car\\ViewComponents\\CartViewComponent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T12:28:19.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Program.cs",
+              "RelativeDocumentMoniker": "BTL_Car\\Program.cs",
+              "ToolTip": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Program.cs",
+              "RelativeToolTip": "BTL_Car\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T01:52:37.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "BTL_Car\\Controllers\\BookingController.cs",
+              "ToolTip": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "BTL_Car\\Controllers\\BookingController.cs",
+              "ViewState": "AQIAACcBAAAAAAAAAAAAAAEBAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T05:12:10.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BTL_Car\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BTL_Car\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-29T06:26:16.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SessionExtensions.cs",
+              "DocumentMoniker": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Helpers\\SessionExtensions.cs",
+              "RelativeDocumentMoniker": "BTL_Car\\Helpers\\SessionExtensions.cs",
+              "ToolTip": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Helpers\\SessionExtensions.cs",
+              "RelativeToolTip": "BTL_Car\\Helpers\\SessionExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T03:10:37.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookingViewModel.cs",
+              "DocumentMoniker": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Models\\BookingViewModel.cs",
+              "RelativeDocumentMoniker": "BTL_Car\\Models\\BookingViewModel.cs",
+              "ToolTip": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Models\\BookingViewModel.cs",
+              "RelativeToolTip": "BTL_Car\\Models\\BookingViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T14:01:38.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\LTWNC\\BTL_Car\\BTL_Car\\appsettings.json",
+              "RelativeDocumentMoniker": "BTL_Car\\appsettings.json",
+              "ToolTip": "E:\\LTWNC\\BTL_Car\\BTL_Car\\appsettings.json",
+              "RelativeToolTip": "BTL_Car\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-28T02:13:19.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CountBooking.cshtml",
+              "DocumentMoniker": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Views\\Shared\\Components\\Cart\\CountBooking.cshtml",
+              "RelativeDocumentMoniker": "BTL_Car\\Views\\Shared\\Components\\Cart\\CountBooking.cshtml",
+              "ToolTip": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Views\\Shared\\Components\\Cart\\CountBooking.cshtml",
+              "RelativeToolTip": "BTL_Car\\Views\\Shared\\Components\\Cart\\CountBooking.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T13:37:13.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Cars.cs",
+              "DocumentMoniker": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Models\\Cars.cs",
+              "RelativeDocumentMoniker": "BTL_Car\\Models\\Cars.cs",
+              "ToolTip": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Models\\Cars.cs",
+              "RelativeToolTip": "BTL_Car\\Models\\Cars.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwAoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T01:58:55.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MySetting.cs",
+              "DocumentMoniker": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Helpers\\MySetting.cs",
+              "RelativeDocumentMoniker": "BTL_Car\\Helpers\\MySetting.cs",
+              "ToolTip": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Helpers\\MySetting.cs",
+              "RelativeToolTip": "BTL_Car\\Helpers\\MySetting.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T13:17:43.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BTL_Car",
+              "DocumentMoniker": "E:\\LTWNC\\BTL_Car\\BTL_Car\\BTL_Car.csproj",
+              "RelativeDocumentMoniker": "BTL_Car\\BTL_Car.csproj",
+              "ToolTip": "E:\\LTWNC\\BTL_Car\\BTL_Car\\BTL_Car.csproj",
+              "RelativeToolTip": "BTL_Car\\BTL_Car.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-30T12:27:10.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Views\\Users\\Login.cshtml",
+              "RelativeDocumentMoniker": "BTL_Car\\Views\\Users\\Login.cshtml",
+              "ToolTip": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Views\\Users\\Login.cshtml",
+              "RelativeToolTip": "BTL_Car\\Views\\Users\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-29T06:21:16.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Book.cshtml",
+              "DocumentMoniker": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Views\\Booking\\Book.cshtml",
+              "RelativeDocumentMoniker": "BTL_Car\\Views\\Booking\\Book.cshtml",
+              "ToolTip": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Views\\Booking\\Book.cshtml",
+              "RelativeToolTip": "BTL_Car\\Views\\Booking\\Book.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T07:43:19.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Views\\Users\\Register.cshtml",
+              "RelativeDocumentMoniker": "BTL_Car\\Views\\Users\\Register.cshtml",
+              "ToolTip": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Views\\Users\\Register.cshtml",
+              "RelativeToolTip": "BTL_Car\\Views\\Users\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T12:01:37.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "hiendsBooking.cshtml",
+              "DocumentMoniker": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Views\\Booking\\hiendsBooking.cshtml",
+              "RelativeDocumentMoniker": "BTL_Car\\Views\\Booking\\hiendsBooking.cshtml",
+              "ToolTip": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Views\\Booking\\hiendsBooking.cshtml",
+              "RelativeToolTip": "BTL_Car\\Views\\Booking\\hiendsBooking.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAD0AAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T08:03:23.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Cancel.cshtml",
+              "DocumentMoniker": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Views\\Booking\\Cancel.cshtml",
+              "RelativeDocumentMoniker": "BTL_Car\\Views\\Booking\\Cancel.cshtml",
+              "ToolTip": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Views\\Booking\\Cancel.cshtml",
+              "RelativeToolTip": "BTL_Car\\Views\\Booking\\Cancel.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T03:19:29.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "BTL_Car\\Models\\Booking.cs",
+              "ToolTip": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Models\\Booking.cs",
+              "RelativeToolTip": "BTL_Car\\Models\\Booking.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T14:01:30.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Views\\Cars\\Index.cshtml",
+              "RelativeDocumentMoniker": "BTL_Car\\Views\\Cars\\Index.cshtml",
+              "ToolTip": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Views\\Cars\\Index.cshtml",
+              "RelativeToolTip": "BTL_Car\\Views\\Cars\\Index.cshtml",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAAAgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T02:27:29.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BTL_Car\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BTL_Car\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T02:27:32.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Views\\Booking\\Index.cshtml",
+              "RelativeDocumentMoniker": "BTL_Car\\Views\\Booking\\Index.cshtml",
+              "ToolTip": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Views\\Booking\\Index.cshtml",
+              "RelativeToolTip": "BTL_Car\\Views\\Booking\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T02:31:10.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "BTL_Car\\Controllers\\UsersController.cs",
+              "ToolTip": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "BTL_Car\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAqwFMAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T01:55:15.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Views\\Cars\\Create.cshtml",
+              "RelativeDocumentMoniker": "BTL_Car\\Views\\Cars\\Create.cshtml",
+              "ToolTip": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Views\\Cars\\Create.cshtml",
+              "RelativeToolTip": "BTL_Car\\Views\\Cars\\Create.cshtml",
+              "ViewState": "AQIAADUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T02:30:30.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DangNhapViewModel.cs",
+              "DocumentMoniker": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Models\\DangNhapViewModel.cs",
+              "RelativeDocumentMoniker": "BTL_Car\\Models\\DangNhapViewModel.cs",
+              "ToolTip": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Models\\DangNhapViewModel.cs",
+              "RelativeToolTip": "BTL_Car\\Models\\DangNhapViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T01:58:34.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CarsController.cs",
+              "DocumentMoniker": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Controllers\\CarsController.cs",
+              "RelativeDocumentMoniker": "BTL_Car\\Controllers\\CarsController.cs",
+              "ToolTip": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Controllers\\CarsController.cs",
+              "RelativeToolTip": "BTL_Car\\Controllers\\CarsController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T14:58:04.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BTL_Car\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BTL_Car\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T14:58:02.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "BTL_Car\\Data\\AppDbContext.cs",
+              "ToolTip": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "BTL_Car\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T01:53:54.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "BTL_Car\\Models\\ErrorViewModel.cs",
+              "ToolTip": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "BTL_Car\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T01:58:53.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Users.cs",
+              "DocumentMoniker": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "BTL_Car\\Models\\Users.cs",
+              "ToolTip": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Models\\Users.cs",
+              "RelativeToolTip": "BTL_Car\\Models\\Users.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T06:28:37.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Views\\Cars\\Edit.cshtml",
+              "RelativeDocumentMoniker": "BTL_Car\\Views\\Cars\\Edit.cshtml",
+              "ToolTip": "E:\\LTWNC\\BTL_Car\\BTL_Car\\Views\\Cars\\Edit.cshtml",
+              "RelativeToolTip": "BTL_Car\\Views\\Cars\\Edit.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T02:30:28.872Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
